@@ -1,0 +1,57 @@
+info:
+  name: CHAT post (token count)
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: https://api.novaapp.ai/api/token-count
+  headers:
+    - name: Accept-Encoding
+      value: gzip
+    - name: Connection
+      value: Keep-Alive
+    - name: Content-Length
+      value: "3779"
+      disabled: true
+    - name: Content-Type
+      value: application/json; charset=UTF-8
+    - name: Host
+      value: api.novaapp.ai
+    - name: User-Agent
+      value: okhttp/5.0.0-alpha.11
+    - name: X_DEV
+      value: "false"
+    - name: X_IMAGE_VERSION
+      value: "4"
+    - name: X_PLATFORM
+      value: android
+    - name: X_PLATFORM_ID
+      value: bdd1c954afa22c1b
+    - name: X_PR
+      value: "false"
+    - name: X_TOKEN
+      value: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NGFhNGMyM2VkZTdiOGNhODc1OWZiMDZlNmExZDU4OTI0MjVkMDYiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0LWFpLXByb2QiLCJhdWQiOiJjaGF0LWFpLXByb2QiLCJhdXRoX3RpbWUiOjE3ODAzMjM4NjUsInVzZXJfaWQiOiJxNU1SSm0wcmpCVHRmZlJSVUFzbTdVUFlVOUIyIiwic3ViIjoicTVNUkptMHJqQlR0ZmZSUlVBc203VVBZVTlCMiIsImlhdCI6MTc4MDMyMzg2NiwiZXhwIjoxNzgwMzI3NDY2LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImFub255bW91cyJ9fQ.ttoqREPFG5wqyTzP_kwR7C5ZidHM6BoE63D3qYmhpSyDpwoHaxfvJhjxIdkXi3e1uWVwpm0WqL0WyrqFjCBQPV7o-JTJ2XRN4Iw7ffwGXVoaO8zlUgW1d2S4HHhMdr2yrbdrjrE8todty8_W2ts2TzdlcdiTeL3qoUJ395dXWc20Q-K51q5FZelPmVSW9kmYFycOEkqnZc0Rmh12-H2-VL7CGnnFWOElieZUOjT5gS-NHeAs_BXjWAJBtcgTO_CZ-_1ZnUVNtm79-3zsxeSkr1xd0OvHT9pmTK87Ut66pV9aejeU4RzH-A5G3UZF5dkAiiSqH1RIdeCNCTanpK0Hwg
+    - name: X_USER_ID
+      value: 65f9653f1a0768ec929011b1c7220cc0
+    - name: X_VERSION
+      value: "3"
+  params:
+    - name: Content-Length
+      value: "3779"
+      type: query
+      disabled: true
+  body:
+    type: json
+    data: |-
+      {
+        "content": "llllllllllllllllllllllllllllllllllllllllfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffflllllllllllffffffffffffffffllllllllllll\n",
+        "model": 10
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
