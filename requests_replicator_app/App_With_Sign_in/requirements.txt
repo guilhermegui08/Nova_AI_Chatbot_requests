@@ -1,0 +1,11 @@
+# Nova AI — GUI replication tool (nova_gui.py)
+# Python 3.10+ required
+
+requests>=2.32.0
+curl_cffi>=0.7.0          # TLS fingerprint impersonation to bypass Cloudflare
+customtkinter>=5.2.0      # Dark-theme widgets
+
+# tkinter ships with the Python standard library. On Linux, may need:
+#   Debian/Ubuntu/PopOS:  sudo apt install python3-tk
+#   Fedora:               sudo dnf install python3-tkinter
+#   Arch:                 sudo pacman -S tk
