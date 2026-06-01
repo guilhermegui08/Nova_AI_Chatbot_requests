@@ -1,0 +1,38 @@
+info:
+  name: Abrir APP 1
+  type: http
+  seq: 3
+
+http:
+  method: GET
+  url: https://api.novaapp.ai/api/android/userstatus
+  headers:
+    - name: Accept-Encoding
+      value: gzip
+    - name: Connection
+      value: Keep-Alive
+    - name: Host
+      value: api.novaapp.ai
+    - name: User-Agent
+      value: okhttp/5.0.0-alpha.11
+    - name: X_DEV
+      value: "true"
+    - name: X_IMAGE_VERSION
+      value: "4"
+    - name: X_PLATFORM
+      value: android
+    - name: X_PLATFORM_ID
+      value: bdd1c954afa22c1b
+    - name: X_PR
+      value: "false"
+    - name: X_USER_ID
+      value: 65f9653f1a0768ec929011b1c7220cc0
+    - name: X_VERSION
+      value: "3"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
