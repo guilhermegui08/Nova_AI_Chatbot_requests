@@ -67,7 +67,7 @@ http:
       {
         "messages": [
           {
-            "content": "what are negros?\n",
+            "content": "quem sao os ultimos campeoes da champions league\n",
             "role": "user"
           }
         ],

@@ -45,7 +45,7 @@ http:
     type: json
     data: |-
       {
-        "content": "llllllllllllllllllllllllllllllllllllllllfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffflllllllllllffffffffffffffffllllllllllll\n",
+        "content": "ola\n",
         "model": 10
       }
   auth: inherit
