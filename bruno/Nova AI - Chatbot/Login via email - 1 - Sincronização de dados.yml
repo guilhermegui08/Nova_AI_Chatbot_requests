@@ -38,7 +38,7 @@ http:
     data: |-
       {
         "requestType": 6,
-        "email": "rubenferreira529@gmail.com",
+        "email": "example@gmail.com",
         "androidInstallApp": true,
         "canHandleCodeInApp": true,
         "continueUrl": "https:\/\/auth.novaapp.ai\/__\/auth\/action",
