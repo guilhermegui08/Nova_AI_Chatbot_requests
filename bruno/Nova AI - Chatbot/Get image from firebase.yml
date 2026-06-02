@@ -1,0 +1,43 @@
+info:
+  name: Get image from firebase
+  type: http
+  seq: 12
+
+http:
+  method: GET
+  url: https://firebasestorage.googleapis.com/v0/b/chat-ai-prod.appspot.com/o/vision%2FRZwJu6ebPcUVtMbTuQZRxc1STQj1%2F1780414111133%2Fvision-image-input-89505e05-20fe-44e9-89e4-a6adba976677?alt=media
+  headers:
+    - name: Accept-Encoding
+      value: gzip
+      disabled: true
+    - name: Authorization
+      value: Firebase eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NGFhNGMyM2VkZTdiOGNhODc1OWZiMDZlNmExZDU4OTI0MjVkMDYiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoicnViZW4gZmVycmVpcmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSkdjQkk5YmRiQ3BGdW1XUHdSYnV2SC1TWmZONVRQNWJEMVhRZHM0aVFRdDQyRnlRPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NoYXQtYWktcHJvZCIsImF1ZCI6ImNoYXQtYWktcHJvZCIsImF1dGhfdGltZSI6MTc4MDQxMzY3NiwidXNlcl9pZCI6IlJad0p1NmViUGNVVnRNYlR1UVpSeGMxU1RRajEiLCJzdWIiOiJSWndKdTZlYlBjVVZ0TWJUdVFaUnhjMVNUUWoxIiwiaWF0IjoxNzgwNDEzNjc2LCJleHAiOjE3ODA0MTcyNzYsImVtYWlsIjoicnViZW5mZXJyZWlyYTUyOUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExMzM0NzkwNjgxMjQ5NjUzNDUzNSJdLCJlbWFpbCI6WyJydWJlbmZlcnJlaXJhNTI5QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.EEP2mYDraWq_PeeUIlfHUVt8XvfwSy5nH-1zLKaU6PJhZZgoRfdL1SzgEoUeajtEoApUz2emcvR2bIdPUgEUo8soQ59iqpJFOdSM-9XxGbzHPHSE9x-FHox8iY2B5EsjUKeMdkMnNQZMPp1iaq8aJbWer9t8T5oBTCJIVYchZHNLTA9KCfhKdqSmkelUCCCmy9bkwY6Xi9as-uJeaPEqwAc_ftYrO9VGIFKdWu2LsU5gYKKMNnIm7wcAn5NXCL5mZQvuVjn6QX5clpgdSWf7uy5qkK6YeYyQfnJcfNgMSui-KDXTmajKriWx0wD_3Q7qMKFz9BIadWuM1p1C1r8k3g
+    - name: Connection
+      value: Keep-Alive
+      disabled: true
+    - name: Host
+      value: firebasestorage.googleapis.com
+      disabled: true
+    - name: User-Agent
+      value: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.201211.001)
+      disabled: true
+    - name: x-firebase-appcheck
+      value: eyJlcnJvciI6IlVOS05PV05fRVJST1IifQ==
+      disabled: true
+    - name: x-firebase-gmpid
+      value: 1:733459559012:android:3ea24552bf7997a38d6571
+      disabled: true
+    - name: X-Firebase-Storage-Version
+      value: Android/22.0.1
+      disabled: true
+  params:
+    - name: alt
+      value: media
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
