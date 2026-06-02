@@ -1,0 +1,287 @@
+info:
+  name: Criar um Chat - 2 (Message) (2)
+  type: http
+  seq: 11
+
+http:
+  method: POST
+  url: https://api.novaapp.ai/api/chat
+  headers:
+    - name: Accept
+      value: text/event-stream
+    - name: Accept-Encoding
+      value: gzip
+    - name: Connection
+      value: Keep-Alive
+    - name: Content-Length
+      value: "3779"
+      disabled: true
+    - name: Content-Type
+      value: application/json; charset=UTF-8
+    - name: Host
+      value: api.novaapp.ai
+    - name: User-Agent
+      value: okhttp/5.0.0-alpha.11
+    - name: X_CHAT_ID
+      value: kHW7RcMjkSRcdRMLUPfT
+      disabled: true
+    - name: X_CROSS_ASSISTANT_MODEL
+      value: "true"
+    - name: X_CROSS_MODEL
+      value: "false"
+    - name: X_CROSS_PDF_MODEL
+      value: "true"
+    - name: X_DEV
+      value: "false"
+    - name: X_FUNCTION_STATUS
+      value: "false"
+    - name: X_FUNCTION_USE
+      value: "true"
+    - name: X_IMAGE_VERSION
+      value: "4"
+    - name: X_MODEL
+      value: "5"
+    - name: X_PLATFORM
+      value: android
+    - name: X_PLATFORM_ID
+      value: bdd1c954afa22c1b
+    - name: X_PR
+      value: "false"
+    - name: X_SEARCH
+      value: "false"
+    - name: X_STREAM
+      value: "true"
+    - name: X_TOKEN
+      value: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NGFhNGMyM2VkZTdiOGNhODc1OWZiMDZlNmExZDU4OTI0MjVkMDYiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0LWFpLXByb2QiLCJhdWQiOiJjaGF0LWFpLXByb2QiLCJhdXRoX3RpbWUiOjE3ODAzMjM4NjUsInVzZXJfaWQiOiJxNU1SSm0wcmpCVHRmZlJSVUFzbTdVUFlVOUIyIiwic3ViIjoicTVNUkptMHJqQlR0ZmZSUlVBc203VVBZVTlCMiIsImlhdCI6MTc4MDMyNzE2NiwiZXhwIjoxNzgwMzMwNzY2LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImFub255bW91cyJ9fQ.YBTJQWM8F5GhQI8TyNOyNWJRIHRDD3qV_tETA7vcCzpVRWQBwMUYNItoyp9v2Exh5DfVeuofO5_OLkI_rgz1cTjiOqzK2gnDp1nnAYy8mGXScgN54c0maJ7IfI0mMFtQcuepSVNrcvYnFj2nuVj1S1Q8Z48psdV_yTyHXvcXZ6liO1YZ7FCl5qdMdQXULJ_sls6AR1tqNkiW1bChnJTofrI3KyTwjSQGCVusoDm8nuq08Ig7hSd0hQ5pqXu0trlwsAqH6t4u_IbJpMYsRSZZknpBenEE34-kEDBKRhYitzxJO04AdtR_ERAH1JGfNeyZHp89D73d-2pmjofrrnt5fA
+    - name: X_TOKEN_COUNT
+      value: "0"
+    - name: X_USER_ID
+      value: 65f9653f1a0768ec929011b1c7220cc0
+    - name: X_VERSION
+      value: "0"
+    - name: X_WEB_SEARCH_SOURCE
+      value: "0"
+  body:
+    type: json
+    data: |-
+      {
+        "messages": [
+          {
+            "content": "quem sao os ultimos campeoes da champions league\n",
+            "role": "user"
+          }
+        ],
+        "modelMap": [
+          {
+            "key": 0,
+            "value": "mpwyUrxHu4Xa47BP5lPEgwk/NcaFFlnhBk3SA745INc\u003d"
+          },
+          {
+            "key": 2,
+            "value": "utq91e3b3StjmuMJGullm0fDoieGv2EhMsvPdq2jc34\u003d"
+          },
+          {
+            "key": 3,
+            "value": "FIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQogrY\u003d"
+          },
+          {
+            "key": 4,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQoaaa\u003d"
+          },
+          {
+            "key": 5,
+            "value": "nIjaUTDhbb/r4IxrhYKBUzRLrshrJldlVgKL8EQobbb\u003d"
+          },
+          {
+            "key": 6,
+            "value": "nIjaUTDhcc/r4IxrhYKBUzRLrshrJldlVgKL8EQoccc\u003d"
+          },
+          {
+            "key": 7,
+            "value": "nIjaUTDhdd/r4IxrhYKBUzRLrshrJldlVgKL8EQoddd\u003d"
+          },
+          {
+            "key": 8,
+            "value": "nIjaUTDhee/r4IxrhYKBUzRLrshrJldlVgKL8EQoeee\u003d"
+          },
+          {
+            "key": 9,
+            "value": "nIjaUTDhff/r4IxrhYKBUzRLrshrJldlVgKL8EQofff\u003d"
+          },
+          {
+            "key": 10,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQoggg\u003d"
+          },
+          {
+            "key": 11,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQohhh\u003d"
+          },
+          {
+            "key": 12,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQojjj\u003d"
+          },
+          {
+            "key": 13,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQokkk\u003d"
+          },
+          {
+            "key": 14,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQolll\u003d"
+          },
+          {
+            "key": 15,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQommm\u003d"
+          },
+          {
+            "key": 16,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQonnn\u003d"
+          },
+          {
+            "key": 17,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQoppp\u003d"
+          },
+          {
+            "key": 18,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQorrr\u003d"
+          },
+          {
+            "key": 19,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQosss\u003d"
+          },
+          {
+            "key": 20,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQottt\u003d"
+          },
+          {
+            "key": 21,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQouuu\u003d"
+          },
+          {
+            "key": 22,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQovvv\u003d"
+          },
+          {
+            "key": 23,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQoyyy\u003d"
+          },
+          {
+            "key": 24,
+            "value": "nIjaUTDhgg/r4IxrhYKBUzRLrshrJldlVgKL8EQozzz\u003d"
+          },
+          {
+            "key": 25,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozaa\u003d"
+          },
+          {
+            "key": 26,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozab\u003d"
+          },
+          {
+            "key": 27,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozac\u003d"
+          },
+          {
+            "key": 28,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozad\u003d"
+          },
+          {
+            "key": 29,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozae\u003d"
+          },
+          {
+            "key": 30,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozaf\u003d"
+          },
+          {
+            "key": 31,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozag\u003d"
+          },
+          {
+            "key": 32,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozah\u003d"
+          },
+          {
+            "key": 33,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozai\u003d"
+          },
+          {
+            "key": 34,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozaj\u003d"
+          },
+          {
+            "key": 35,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozak\u003d"
+          },
+          {
+            "key": 36,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozal\u003d"
+          },
+          {
+            "key": 37,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozam\u003d"
+          },
+          {
+            "key": 38,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozan\u003d"
+          },
+          {
+            "key": 39,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozao\u003d"
+          },
+          {
+            "key": 40,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozap\u003d"
+          },
+          {
+            "key": 41,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozaq\u003d"
+          },
+          {
+            "key": 42,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozar\u003d"
+          },
+          {
+            "key": 43,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozas\u003d"
+          },
+          {
+            "key": 44,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozat\u003d"
+          },
+          {
+            "key": 45,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozau\u003d"
+          },
+          {
+            "key": 46,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozav\u003d"
+          },
+          {
+            "key": 47,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozaw\u003d"
+          },
+          {
+            "key": 48,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozax\u003d"
+          },
+          {
+            "key": 49,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozay\u003d"
+          },
+          {
+            "key": 50,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozaz\u003d"
+          },
+          {
+            "key": 51,
+            "value": "nIjaUTDhgL/r4IxrhYKBUzRLrshrJldlVgKL8EQozba\u003d"
+          }
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
