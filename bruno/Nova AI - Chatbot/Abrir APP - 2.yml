@@ -1,14 +1,12 @@
 info:
-  name: Chat post (Message)
+  name: Abrir APP - 2
   type: http
-  seq: 8
+  seq: 2
 
 http:
   method: POST
-  url: https://api.novaapp.ai/api/chat
+  url: https://api.novaapp.ai/api/v3/users/65f9653f1a0768ec929011b1c7220cc0
   headers:
-    - name: Accept
-      value: text/event-stream
     - name: Accept-Encoding
       value: gzip
     - name: Connection
@@ -22,56 +20,28 @@ http:
       value: api.novaapp.ai
     - name: User-Agent
       value: okhttp/5.0.0-alpha.11
-    - name: X_CHAT_ID
-      value: kHW7RcMjkSRcdRMLUPfT
-      disabled: true
-    - name: X_CROSS_ASSISTANT_MODEL
-      value: "true"
-    - name: X_CROSS_MODEL
-      value: "false"
-    - name: X_CROSS_PDF_MODEL
-      value: "true"
     - name: X_DEV
       value: "false"
-    - name: X_FUNCTION_STATUS
-      value: "false"
-    - name: X_FUNCTION_USE
-      value: "true"
     - name: X_IMAGE_VERSION
       value: "4"
-    - name: X_MODEL
-      value: "5"
     - name: X_PLATFORM
       value: android
     - name: X_PLATFORM_ID
       value: bdd1c954afa22c1b
     - name: X_PR
       value: "false"
-    - name: X_SEARCH
-      value: "false"
-    - name: X_STREAM
-      value: "true"
     - name: X_TOKEN
-      value: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NGFhNGMyM2VkZTdiOGNhODc1OWZiMDZlNmExZDU4OTI0MjVkMDYiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0LWFpLXByb2QiLCJhdWQiOiJjaGF0LWFpLXByb2QiLCJhdXRoX3RpbWUiOjE3ODAzMjM4NjUsInVzZXJfaWQiOiJxNU1SSm0wcmpCVHRmZlJSVUFzbTdVUFlVOUIyIiwic3ViIjoicTVNUkptMHJqQlR0ZmZSUlVBc203VVBZVTlCMiIsImlhdCI6MTc4MDMyNzE2NiwiZXhwIjoxNzgwMzMwNzY2LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImFub255bW91cyJ9fQ.YBTJQWM8F5GhQI8TyNOyNWJRIHRDD3qV_tETA7vcCzpVRWQBwMUYNItoyp9v2Exh5DfVeuofO5_OLkI_rgz1cTjiOqzK2gnDp1nnAYy8mGXScgN54c0maJ7IfI0mMFtQcuepSVNrcvYnFj2nuVj1S1Q8Z48psdV_yTyHXvcXZ6liO1YZ7FCl5qdMdQXULJ_sls6AR1tqNkiW1bChnJTofrI3KyTwjSQGCVusoDm8nuq08Ig7hSd0hQ5pqXu0trlwsAqH6t4u_IbJpMYsRSZZknpBenEE34-kEDBKRhYitzxJO04AdtR_ERAH1JGfNeyZHp89D73d-2pmjofrrnt5fA
-    - name: X_TOKEN_COUNT
-      value: "0"
+      value: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NGFhNGMyM2VkZTdiOGNhODc1OWZiMDZlNmExZDU4OTI0MjVkMDYiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0LWFpLXByb2QiLCJhdWQiOiJjaGF0LWFpLXByb2QiLCJhdXRoX3RpbWUiOjE3ODAzMjM4NjUsInVzZXJfaWQiOiJxNU1SSm0wcmpCVHRmZlJSVUFzbTdVUFlVOUIyIiwic3ViIjoicTVNUkptMHJqQlR0ZmZSUlVBc203VVBZVTlCMiIsImlhdCI6MTc4MDMyMzg2NiwiZXhwIjoxNzgwMzI3NDY2LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImFub255bW91cyJ9fQ.ttoqREPFG5wqyTzP_kwR7C5ZidHM6BoE63D3qYmhpSyDpwoHaxfvJhjxIdkXi3e1uWVwpm0WqL0WyrqFjCBQPV7o-JTJ2XRN4Iw7ffwGXVoaO8zlUgW1d2S4HHhMdr2yrbdrjrE8todty8_W2ts2TzdlcdiTeL3qoUJ395dXWc20Q-K51q5FZelPmVSW9kmYFycOEkqnZc0Rmh12-H2-VL7CGnnFWOElieZUOjT5gS-NHeAs_BXjWAJBtcgTO_CZ-_1ZnUVNtm79-3zsxeSkr1xd0OvHT9pmTK87Ut66pV9aejeU4RzH-A5G3UZF5dkAiiSqH1RIdeCNCTanpK0Hwg
     - name: X_USER_ID
       value: 65f9653f1a0768ec929011b1c7220cc0
     - name: X_VERSION
-      value: "0"
-    - name: X_WEB_SEARCH_SOURCE
-      value: "0"
+      value: "3"
   body:
     type: json
     data: |-
       {
-        "messages": [
-          {
-            "content": "what are negros?\n",
-            "role": "user"
-          }
-        ],
-        "modelMap": [
+        "fcmToken": "ciXN5bAqQsiUjQr7Vvb_SJ:APA91bHQTAzDhQ9kMiq-w_hz2kH-uztNplyKMC4590Wbk4-7hJ36bXk4h12VrQ3PF5FHJv7OYaatVxOFzUjy1z9KOWBv583PDtO9nIpZx8HF8nGPUdHPiJU",
+        "model": [
           {
             "key": 0,
             "value": "mpwyUrxHu4Xa47BP5lPEgwk/NcaFFlnhBk3SA745INc\u003d"

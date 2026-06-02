@@ -1,7 +1,7 @@
 info:
-  name: CHAT post (set title)
+  name: Criar um Chat - 1 (set title)
   type: http
-  seq: 6
+  seq: 3
 
 http:
   method: POST

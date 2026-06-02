@@ -1,7 +1,7 @@
 info:
-  name: Get image from firebase
+  name: Login via email - 2 - Sincronização de dados
   type: http
-  seq: 12
+  seq: 9
 
 http:
   method: GET
