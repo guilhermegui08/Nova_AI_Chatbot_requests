@@ -1,0 +1,53 @@
+info:
+  name: CHAT post (set title)
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: https://api.novaapp.ai/api/chat/title
+  headers:
+    - name: Accept-Encoding
+      value: gzip
+    - name: Connection
+      value: Keep-Alive
+    - name: Content-Type
+      value: application/json; charset=UTF-8
+    - name: Host
+      value: api.novaapp.ai
+    - name: User-Agent
+      value: okhttp/5.0.0-alpha.11
+    - name: X_DEV
+      value: "false"
+    - name: X_IMAGE_VERSION
+      value: "4"
+    - name: X_PLATFORM
+      value: android
+    - name: X_PLATFORM_ID
+      value: bdd1c954afa22c1b
+    - name: X_PR
+      value: "false"
+    - name: X_TOKEN
+      value: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NGFhNGMyM2VkZTdiOGNhODc1OWZiMDZlNmExZDU4OTI0MjVkMDYiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0LWFpLXByb2QiLCJhdWQiOiJjaGF0LWFpLXByb2QiLCJhdXRoX3RpbWUiOjE3ODA0MDczNjgsInVzZXJfaWQiOiIyeW5uMVJScEhlUzNndm4wMEdTSTVuZXVXQmIyIiwic3ViIjoiMnlubjFSUnBIZVMzZ3ZuMDBHU0k1bmV1V0JiMiIsImlhdCI6MTc4MDQxMDY2OCwiZXhwIjoxNzgwNDE0MjY4LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImFub255bW91cyJ9fQ.VIcMQLFd6T0PPWTuRDjkTvYospDrZ03gtVwCG_SDNJiIBJCrUPF1WAMw_EyCTCnjrVnaly-QFNCYyqa5fZ7u8VRcewDwEeIXy9bCwrRJKlzqoT0NY1i1MWoyKm6oJwNH6wL1u16dPBcgk1ASg-XGS3LvUVxXaBWU_WFjY1cfxvcHDTCGa_hqHkuqUHsZJgFbM1VDs0MuJvQa99QIPO-_MASws9BQ3eSM8fYmhY-czS_elfVMQo9CFhAPz1aIOLa3ljxGkQNS-7GjH24ohpmfzdHkzqpmz0wSeudnHxZTwpI8ClLnZgjOuGBPppjZhQ1OZW9CgFXFsAANqhNBD_B4_Q
+    - name: X_USER_ID
+      value: 65f9653f1a0768ec929011b1c7220cc0
+    - name: X_VERSION
+      value: "3"
+  body:
+    type: json
+    data: |-
+      {
+        "messages": [
+          {
+            "content": "quem sao os ultimos campeoes da champions league",
+            "role": "user"
+          }
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

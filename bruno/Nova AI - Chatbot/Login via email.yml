@@ -1,0 +1,57 @@
+info:
+  name: Login via email
+  type: http
+  seq: 10
+
+http:
+  method: POST
+  url: https://www.googleapis.com/identitytoolkit/v3/relyingparty/getOobConfirmationCode?key=AIzaSyBBr35pmWkZsnSV_Zc1Enk-tGp_4RGw7a8
+  headers:
+    - name: Accept-Encoding
+      value: gzip
+    - name: Connection
+      value: Keep-Alive
+    - name: Content-Type
+      value: application/json
+    - name: Host
+      value: www.googleapis.com
+    - name: User-Agent
+      value: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.201211.001)
+    - name: X-Android-Cert
+      value: AEDA8AD2ABE218A2CD7133CC2E2912BA155926A3
+    - name: X-Android-Package
+      value: com.scaleup.chatai
+    - name: X-Client-Version
+      value: Android/Fallback/X24000001/FirebaseCore-Android
+    - name: X-Firebase-AppCheck
+      value: eyJlcnJvciI6IlVOS05PV05fRVJST1IifQ==
+    - name: X-Firebase-Client
+      value: H4sIAAAAAAAAAKtWykhNLCpJSk0sKVayio7VUSpLLSrOzM9TslIyUqoFAFyivEQfAAAA
+    - name: X-Firebase-GMPID
+      value: 1:733459559012:android:3ea24552bf7997a38d6571
+  params:
+    - name: key
+      value: AIzaSyBBr35pmWkZsnSV_Zc1Enk-tGp_4RGw7a8
+      type: query
+  body:
+    type: json
+    data: |-
+      {
+        "requestType": 6,
+        "email": "rubenferreira529@gmail.com",
+        "androidInstallApp": true,
+        "canHandleCodeInApp": true,
+        "continueUrl": "https:\/\/auth.novaapp.ai\/__\/auth\/action",
+        "iosBundleId": "com.scaleup.chatai",
+        "androidPackageName": "com.scaleup.chatai",
+        "androidMinimumVersion": "7",
+        "linkDomain": "auth.novaapp.ai",
+        "clientType": "CLIENT_TYPE_ANDROID"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

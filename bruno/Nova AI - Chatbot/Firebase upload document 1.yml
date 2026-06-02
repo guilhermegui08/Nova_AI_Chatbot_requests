@@ -1,0 +1,53 @@
+info:
+  name: Firebase upload document 1
+  type: http
+  seq: 8
+
+http:
+  method: POST
+  url: https://firebasestorage.googleapis.com/v0/b/chat-ai-prod.appspot.com/o?name=document%2F2ynn1RRpHeS3gvn00GSI5neuWBb2%2F1780409227666%2Fdocument-input-4978d0ff-9c66-41d6-9433-cd3c2f074d03&uploadType=resumable
+  headers:
+    - name: Accept-Encoding
+      value: gzip
+    - name: Authorization
+      value: Firebase eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1NGFhNGMyM2VkZTdiOGNhODc1OWZiMDZlNmExZDU4OTI0MjVkMDYiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jaGF0LWFpLXByb2QiLCJhdWQiOiJjaGF0LWFpLXByb2QiLCJhdXRoX3RpbWUiOjE3ODA0MDczNjgsInVzZXJfaWQiOiIyeW5uMVJScEhlUzNndm4wMEdTSTVuZXVXQmIyIiwic3ViIjoiMnlubjFSUnBIZVMzZ3ZuMDBHU0k1bmV1V0JiMiIsImlhdCI6MTc4MDQwNzM2OCwiZXhwIjoxNzgwNDEwOTY4LCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7fSwic2lnbl9pbl9wcm92aWRlciI6ImFub255bW91cyJ9fQ.XCciQ-0sNM-7pd3GEXHVBzIJsS6TZAEIFXvjropc7QcOdp_4pHAtT41hHkXqWOgof0L5_y2BWlMe4gPhXstXVjq3KHpdhCPtVZhwfBoVlx02eJq3b9LDtn226pa_0fIThi5y7LBMOA0qHp_55DfMpuXHr8IwTy7Z6c4yeaZP0X1hg3UuHZbTvpvQS6z6Mx_MaQiN-udeWZBNQPykLkBgyE1mxzvZSSKFS7rBwxrJ0ua49wGnmLcN4LZcHpCMiyhAm9q0M_WcJLwHriFI_geQQTs8zZRrQSKyfxA2lpX_455nPTIxKgn0oAi7g8a90QsDqTvzT0rDh44lrq5qw5snRw
+    - name: Connection
+      value: Keep-Alive
+    - name: Content-Type
+      value: application/x-www-form-urlencoded
+    - name: Host
+      value: firebasestorage.googleapis.com
+    - name: User-Agent
+      value: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.201211.001)
+    - name: x-firebase-appcheck
+      value: eyJlcnJvciI6IlVOS05PV05fRVJST1IifQ==
+    - name: x-firebase-gmpid
+      value: 1:733459559012:android:3ea24552bf7997a38d6571
+    - name: X-Firebase-Storage-Version
+      value: Android/22.0.1
+    - name: X-Goog-Upload-Command
+      value: start
+    - name: X-Goog-Upload-Header-Content-Type
+      value: application/pdf
+    - name: X-Goog-Upload-Protocol
+      value: resumable
+  params:
+    - name: name
+      value: document%2F2ynn1RRpHeS3gvn00GSI5neuWBb2%2F1780409227666%2Fdocument-input-4978d0ff-9c66-41d6-9433-cd3c2f074d03
+      type: query
+    - name: uploadType
+      value: resumable
+      type: query
+  body:
+    type: file
+    data:
+      - filePath: /home/ruben/Transferências/casos.docx
+        contentType: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+        selected: true
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
