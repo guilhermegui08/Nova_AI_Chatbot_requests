@@ -82,17 +82,17 @@ your traffic requires it; it is not bundled with the project.
 pip install customtkinter requests curl_cffi
 ```
 
-`curl_cffi` is optional but recommended — it enables TLS impersonation so the
+`curl_cffi` usage  — it enables TLS impersonation so the
 client can pass through Cloudflare in the same way the app does. Without it, the
 script falls back to plain `requests`.
 
 ### Running
 
 ```bash
-python requests.py
+python requests_replicator_app/nova_gui_anonimo.py
 ```
 
-or run the app inside `requests_replicator_app/`.
+
 
 Then, in the GUI:
 
