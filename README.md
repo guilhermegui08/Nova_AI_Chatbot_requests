@@ -21,7 +21,6 @@ understand how the client communicates with its backend.
 |------|-------------|
 | `bruno/Nova AI - Chatbot/` | [Bruno](https://www.usebruno.com/) API collection with the individual requests, for manual inspection and replay. |
 | `requests_replicator_app/` | GUI application (CustomTkinter) that replicates the captured flows interactively. |
-| `requests.py` | Standalone script version of the request replication. |
 | `LICENSE` | GPL-3.0 license. |
 
 ---
